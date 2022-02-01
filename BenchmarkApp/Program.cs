@@ -13,6 +13,7 @@ namespace BenchmarkApp
         }
     }
 
+    [MemoryDiagnoser]
     public class IsLongMonthBenchmarks
     {
         [Params(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)]
@@ -89,6 +90,7 @@ namespace BenchmarkApp
         }
     }
 
+    [MemoryDiagnoser]
     public class DaysInMonthBenchmarks
     {
         [Params(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)]
